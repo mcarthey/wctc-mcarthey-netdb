@@ -20,6 +20,8 @@ namespace TicketConsole
             manager.Read();
             Console.WriteLine(manager.Contents);
 
+            Console.WriteLine("Enter any key to exit");
+            Console.ReadLine();
         }
     }
 }
